@@ -1,0 +1,2984 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#1a2b3c">
+<title>Cookie Policy — Kebijakan Cookie AppHub.ID</title>
+<meta name="description" content="Kebijakan Cookie resmi AppHub.ID (pre-release) yang menjelaskan penggunaan cookie, teknologi serupa, penyimpanan browser, dan kontrol pengguna pada produk AppHub.ID.">
+<style>
+  :root {
+    --bg: #f4f5f7;
+    --surface: #ffffff;
+    --surface-alt: #f8fafc;
+    --border: #e2e6ed;
+    --border-strong: #cfd6e0;
+    --text: #1b2330;
+    --text-soft: #46516a;
+    --text-muted: #6b7280;
+    --accent: #1a2b3c;
+    --accent-2: #2b4a6b;
+    --accent-soft: #eaf0f6;
+    --accent-line: #b9cad9;
+    --warn-bg: #fff8e6;
+    --warn-border: #f2d998;
+    --warn-text: #7a5406;
+    --info-bg: #eef4f8;
+    --info-border: #bcd3e0;
+    --info-text: #1a2b3c;
+    --radius: 12px;
+    --radius-sm: 8px;
+    --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.04);
+    --shadow-md: 0 4px 14px rgba(15, 23, 42, 0.07);
+  }
+
+  * {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Roboto, "Noto Sans", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-drag: none;
+    touch-action: pan-y;
+  }
+
+  input, textarea, select {
+    -webkit-user-select: text;
+    user-select: text;
+  }
+
+  /* ============ HEADER ============ */
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(255, 255, 255, 0.96);
+    -webkit-backdrop-filter: saturate(180%) blur(12px);
+    backdrop-filter: saturate(180%) blur(12px);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .header-inner {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 12px 18px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .brand-mark {
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #1a2b3c 0%, #2b4a6b 100%);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    flex-shrink: 0;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .brand-text {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    flex: 1;
+  }
+
+  .brand-name {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+  }
+
+  .brand-sub {
+    font-size: 11px;
+    color: var(--text-muted);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  .status-pill {
+    flex-shrink: 0;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--warn-text);
+    background: var(--warn-bg);
+    border: 1px solid var(--warn-border);
+    padding: 4px 8px;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+
+  /* ============ LAYOUT ============ */
+  .page {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 0 16px 64px;
+  }
+
+  /* ============ HERO ============ */
+  .hero {
+    padding: 26px 0 16px;
+  }
+
+  .hero-eyebrow {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: var(--accent-soft);
+    border: 1px solid var(--accent-line);
+    padding: 5px 11px;
+    border-radius: 999px;
+    margin-bottom: 14px;
+  }
+
+  .hero-title {
+    margin: 0 0 10px;
+    font-size: 27px;
+    line-height: 1.22;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: var(--text);
+  }
+
+  .hero-title span {
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--text-soft);
+    margin-top: 6px;
+    letter-spacing: -0.01em;
+  }
+
+  .hero-desc {
+    margin: 0;
+    font-size: 14.5px;
+    color: var(--text-soft);
+    line-height: 1.68;
+  }
+
+  /* ============ STATUS PANEL ============ */
+  .status-panel {
+    background: linear-gradient(160deg, #fff8e6 0%, #fdf3d8 100%);
+    border: 1px solid var(--warn-border);
+    border-left: 4px solid #c98a06;
+    border-radius: var(--radius);
+    padding: 16px 18px;
+    margin: 18px 0 22px;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .status-panel-label {
+    display: inline-block;
+    font-size: 10.5px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--warn-text);
+    background: rgba(201, 138, 6, 0.14);
+    border: 1px solid rgba(201, 138, 6, 0.28);
+    padding: 4px 9px;
+    border-radius: 999px;
+    margin-bottom: 10px;
+  }
+
+  .status-panel-title {
+    margin: 0 0 10px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #5c3d02;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
+  }
+
+  .status-panel p {
+    margin: 0 0 10px;
+    font-size: 13.5px;
+    color: #6b4b06;
+    line-height: 1.68;
+  }
+
+  .status-panel p:last-child {
+    margin-bottom: 0;
+  }
+
+  .status-panel ul {
+    margin: 6px 0 10px;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .status-panel ul li {
+    position: relative;
+    padding-left: 18px;
+    margin-bottom: 6px;
+    font-size: 13px;
+    color: #6b4b06;
+    line-height: 1.62;
+  }
+
+  .status-panel ul li::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 8px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #c98a06;
+    opacity: 0.85;
+  }
+
+  /* ============ META CARD ============ */
+  .meta-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px 18px;
+    margin: 18px 0 24px;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .meta-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px 12px;
+  }
+
+  .meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-width: 0;
+  }
+
+  .meta-item.full {
+    grid-column: 1 / -1;
+    padding-top: 12px;
+    border-top: 1px dashed var(--border);
+  }
+
+  .meta-label {
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  .meta-value {
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--text);
+    word-break: break-word;
+  }
+
+  .meta-value.placeholder {
+    color: var(--accent);
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 12.5px;
+  }
+
+  /* ============ TOC ============ */
+  .toc {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    margin-bottom: 26px;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .toc-toggle {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 16px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text);
+    cursor: pointer;
+    text-align: left;
+    letter-spacing: -0.01em;
+  }
+
+  .toc-toggle .toc-count {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--accent);
+    background: var(--accent-soft);
+    padding: 3px 8px;
+    border-radius: 999px;
+    letter-spacing: 0.04em;
+  }
+
+  .toc-chevron {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    transition: transform 0.22s ease;
+    color: var(--text-muted);
+  }
+
+  .toc.open .toc-chevron {
+    transform: rotate(180deg);
+  }
+
+  .toc-body {
+    display: none;
+    border-top: 1px solid var(--border);
+    padding: 8px 10px 12px;
+    background: var(--surface-alt);
+  }
+
+  .toc.open .toc-body {
+    display: block;
+  }
+
+  .toc-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    columns: 1;
+  }
+
+  .toc-list li {
+    margin: 0;
+  }
+
+  .toc-list a {
+    display: block;
+    padding: 8px 10px;
+    font-size: 13.5px;
+    color: var(--text-soft);
+    text-decoration: none;
+    border-radius: var(--radius-sm);
+    line-height: 1.45;
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+
+  .toc-list a:active {
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+
+  .toc-num {
+    display: inline-block;
+    min-width: 26px;
+    font-weight: 700;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+    font-size: 12.5px;
+  }
+
+  /* ============ NOTICE ============ */
+  .notice {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: var(--radius-sm);
+    padding: 16px 18px;
+    margin-bottom: 26px;
+  }
+
+  .notice-title {
+    font-size: 12.5px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 8px;
+  }
+
+  .notice p {
+    margin: 0 0 8px;
+    font-size: 13.5px;
+    color: var(--text-soft);
+    line-height: 1.68;
+  }
+
+  .notice p:last-child {
+    margin-bottom: 0;
+  }
+
+  /* ============ SECTIONS ============ */
+  .section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px 18px;
+    margin-bottom: 14px;
+    box-shadow: var(--shadow-sm);
+    scroll-margin-top: 76px;
+  }
+
+  .section-head {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 14px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .section-num {
+    flex-shrink: 0;
+    min-width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #1a2b3c 0%, #2b4a6b 100%);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 14px;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.02em;
+    box-shadow: 0 2px 6px rgba(26, 43, 60, 0.22);
+  }
+
+  .section-title-wrap {
+    min-width: 0;
+    padding-top: 2px;
+  }
+
+  .section-kicker {
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin: 0 0 2px;
+  }
+
+  .section-title {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: -0.015em;
+    line-height: 1.3;
+    color: var(--text);
+  }
+
+  .section p {
+    margin: 0 0 12px;
+    font-size: 14.5px;
+    line-height: 1.72;
+    color: var(--text-soft);
+  }
+
+  .section p:last-child {
+    margin-bottom: 0;
+  }
+
+  .subsection {
+    margin: 0 0 16px;
+  }
+
+  .subsection:last-child {
+    margin-bottom: 0;
+  }
+
+  .subsection-title {
+    margin: 0 0 7px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1.4;
+    letter-spacing: -0.005em;
+  }
+
+  .clause-num {
+    font-variant-numeric: tabular-nums;
+    font-weight: 700;
+    color: var(--accent);
+    margin-right: 6px;
+  }
+
+  .section ul, .section ol {
+    margin: 0 0 12px;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .section ul li, .section ol li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 8px;
+    font-size: 14.5px;
+    line-height: 1.68;
+    color: var(--text-soft);
+  }
+
+  .section ul li:last-child, .section ol li:last-child {
+    margin-bottom: 0;
+  }
+
+  .section ul li::before {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 9px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+    opacity: 0.6;
+  }
+
+  .section ol {
+    counter-reset: olc;
+  }
+
+  .section ol li {
+    counter-increment: olc;
+    padding-left: 26px;
+  }
+
+  .section ol li::before {
+    content: counter(olc) ".";
+    position: absolute;
+    left: 2px;
+    top: 0;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+    line-height: 1.68;
+  }
+
+  /* ============ PRODUCT GRID ============ */
+  .product-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    margin: 4px 0 14px;
+  }
+
+  .product-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    background: var(--surface-alt);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 11px 12px;
+  }
+
+  .product-icon {
+    flex-shrink: 0;
+    font-size: 17px;
+    line-height: 1.2;
+    width: 22px;
+    text-align: center;
+  }
+
+  .product-body {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .product-name {
+    font-size: 13.5px;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1.35;
+    margin: 0;
+  }
+
+  .product-desc {
+    font-size: 12.5px;
+    color: var(--text-muted);
+    line-height: 1.55;
+    margin: 3px 0 0;
+  }
+
+  /* ============ CALLOUT ============ */
+  .callout {
+    background: var(--info-bg);
+    border: 1px solid var(--info-border);
+    border-radius: var(--radius-sm);
+    padding: 13px 15px;
+    margin: 12px 0 0;
+  }
+
+  .callout p {
+    margin: 0;
+    font-size: 13.5px;
+    color: var(--info-text);
+    line-height: 1.68;
+    font-weight: 500;
+  }
+
+  .callout strong {
+    font-weight: 800;
+  }
+
+  .callout-warn {
+    background: var(--warn-bg);
+    border-color: var(--warn-border);
+  }
+
+  .callout-warn p {
+    color: #6b4b06;
+  }
+
+  /* ============ TABLE ============ */
+  .data-table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    margin: 10px 0 14px;
+    background: var(--surface);
+  }
+
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 480px;
+    font-size: 13px;
+  }
+
+  .data-table th,
+  .data-table td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+    line-height: 1.55;
+  }
+
+  .data-table th {
+    background: var(--surface-alt);
+    font-weight: 700;
+    color: var(--text);
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+
+  .data-table td {
+    color: var(--text-soft);
+  }
+
+  .data-table tr:last-child td {
+    border-bottom: none;
+  }
+
+  .data-table td:first-child {
+    font-weight: 600;
+    color: var(--text);
+    width: 40%;
+  }
+
+  /* ============ VERSION CARD ============ */
+  .version-card {
+    background: var(--surface-alt);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: var(--radius-sm);
+    padding: 14px 16px;
+    margin: 6px 0 12px;
+  }
+
+  .version-card-title {
+    font-size: 13px;
+    font-weight: 800;
+    color: var(--accent);
+    margin: 0 0 8px;
+    letter-spacing: -0.005em;
+  }
+
+  .version-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 12px;
+  }
+
+  .version-item {
+    min-width: 0;
+  }
+
+  .version-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 2px;
+  }
+
+  .version-value {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text);
+    word-break: break-word;
+  }
+
+  .version-value.placeholder {
+    color: var(--accent);
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 12px;
+  }
+
+  /* ============ DIVIDER ============ */
+  .divider {
+    height: 1px;
+    background: var(--border);
+    margin: 24px 0;
+    border: none;
+  }
+
+  /* ============ FOOTER ============ */
+  .site-footer {
+    background: #0f172a;
+    color: #cbd5e1;
+    padding: 32px 18px 40px;
+    text-align: center;
+    margin-top: 8px;
+  }
+
+  .footer-brand {
+    font-size: 17px;
+    font-weight: 800;
+    color: #ffffff;
+    letter-spacing: -0.01em;
+    margin-bottom: 4px;
+  }
+
+  .footer-sub {
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #94a3b8;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+
+  .footer-status {
+    display: inline-block;
+    font-size: 10.5px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fde68a;
+    background: rgba(253, 230, 138, 0.12);
+    border: 1px solid rgba(253, 230, 138, 0.3);
+    padding: 4px 10px;
+    border-radius: 999px;
+    margin-bottom: 18px;
+  }
+
+  .footer-line {
+    height: 1px;
+    background: #1e293b;
+    max-width: 200px;
+    margin: 0 auto 18px;
+    border: none;
+  }
+
+  .footer-meta {
+    font-size: 12.5px;
+    color: #94a3b8;
+    line-height: 1.8;
+  }
+
+  .footer-meta strong {
+    color: #e2e8f0;
+    font-weight: 600;
+  }
+
+  .footer-copy {
+    margin-top: 16px;
+    font-size: 12px;
+    color: #64748b;
+    letter-spacing: 0.02em;
+  }
+
+  /* ============ UNSUPPORTED ============ */
+  #unsupported-screen {
+    display: none;
+    min-height: 100vh;
+    min-height: 100dvh;
+    padding: 28px 20px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(160deg, #f4f5f7 0%, #e8ecf3 100%);
+  }
+
+  #unsupported-screen.active {
+    display: flex;
+  }
+
+  .unsupported-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 30px 22px 28px;
+    max-width: 440px;
+    width: 100%;
+    text-align: center;
+    box-shadow: var(--shadow-md);
+  }
+
+  .unsupported-icon {
+    width: 66px;
+    height: 66px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, #1a2b3c 0%, #2b4a6b 100%);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 28px;
+    box-shadow: 0 6px 18px rgba(26, 43, 60, 0.25);
+  }
+
+  .unsupported-title {
+    margin: 0 0 12px;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: var(--text);
+    line-height: 1.3;
+  }
+
+  .unsupported-text {
+    margin: 0 0 22px;
+    font-size: 14px;
+    color: var(--text-soft);
+    line-height: 1.72;
+  }
+
+  .unsupported-divider {
+    height: 1px;
+    background: var(--border);
+    margin: 0 0 20px;
+    border: none;
+  }
+
+  .unsupported-brand {
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  #main-content {
+    display: none;
+  }
+
+  #main-content.active {
+    display: block;
+  }
+
+  /* ============ RESPONSIVE ============ */
+  @media (max-width: 380px) {
+    .hero-title { font-size: 24px; }
+    .hero-title span { font-size: 15.5px; }
+    .section { padding: 17px 15px; }
+    .section-title { font-size: 16px; }
+    .section-num { min-width: 36px; height: 36px; font-size: 13px; }
+    .section p, .section ul li, .section ol li { font-size: 14px; }
+    .meta-grid { grid-template-columns: 1fr; }
+    .version-grid { grid-template-columns: 1fr; }
+    .header-inner { padding: 10px 14px; }
+    .page { padding-left: 13px; padding-right: 13px; }
+    .status-pill { display: none; }
+  }
+
+  @media (min-width: 480px) {
+    .product-list { grid-template-columns: 1fr 1fr; }
+    .toc-list { columns: 2; column-gap: 6px; }
+    .toc-list li { break-inside: avoid; }
+  }
+
+  @media print {
+    body { background: #ffffff; }
+    .site-header, .toc, .site-footer, #unsupported-screen { display: none !important; }
+    .section { box-shadow: none; border-color: #cccccc; page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ UNSUPPORTED DEVICE SCREEN ============ -->
+<div id="unsupported-screen" role="alert" aria-live="polite">
+  <div class="unsupported-card">
+    <div class="unsupported-icon" aria-hidden="true">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="7" y="2" width="10" height="20" rx="2"></rect>
+        <line x1="11" y1="18" x2="13" y2="18"></line>
+        <line x1="3" y1="3" x2="21" y2="21"></line>
+      </svg>
+    </div>
+    <h1 class="unsupported-title">Perangkat Tidak Didukung</h1>
+    <p class="unsupported-text">
+      Cookie Policy AppHub.ID ini dirancang khusus untuk smartphone Android dan iPhone.
+      Silakan buka halaman ini menggunakan perangkat Android atau iPhone untuk melanjutkan.
+    </p>
+    <hr class="unsupported-divider">
+    <div class="unsupported-brand">AppHub.ID — Official Cookie Policy</div>
+  </div>
+</div>
+
+<!-- ============ MAIN CONTENT ============ -->
+<div id="main-content">
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand-mark" aria-hidden="true">AH</div>
+      <div class="brand-text">
+        <span class="brand-name">AppHub.ID</span>
+        <span class="brand-sub">Official Cookie Document</span>
+      </div>
+      <span class="status-pill">Pre-Release</span>
+    </div>
+  </header>
+
+  <main class="page">
+
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="doc-title">
+      <span class="hero-eyebrow">Cookie Policy</span>
+      <h1 class="hero-title" id="doc-title">
+        Kebijakan Cookie
+        <span>AppHub.ID — Dokumen Resmi</span>
+      </h1>
+      <p class="hero-desc">
+        Dokumen ini menjelaskan bagaimana cookie, teknologi serupa, penyimpanan
+        browser, serta teknologi pelacakan dapat digunakan pada produk dan situs
+        AppHub.ID. Dokumen ini berstatus <strong>sementara (pre-release)</strong>
+        dan akan diperbarui ketika produk memasuki tahap produksi.
+      </p>
+    </section>
+
+    <!-- STATUS PANEL -->
+    <section class="status-panel" aria-label="Status Dokumen">
+      <span class="status-panel-label">Cookie Policy Sementara — Akan Diperbarui Saat Produk Dirilis</span>
+      <h2 class="status-panel-title">Status Dokumen: Sementara / Pre-Release</h2>
+      <p>
+        Cookie Policy ini merupakan versi sementara yang disusun <strong>sebelum</strong>
+        seluruh atau sebagian produk AppHub.ID dirilis secara publik. Implementasi
+        teknis cookie dan teknologi serupa dapat berubah selama proses pengembangan.
+      </p>
+      <ul>
+        <li>Tidak semua kategori teknologi yang dibahas dalam dokumen ini berarti sudah digunakan oleh produk AppHub.ID.</li>
+        <li>Teknologi yang digunakan pada setiap produk akan ditentukan berdasarkan kebutuhan produk dan implementasi aktual.</li>
+        <li>Setiap produk dapat memiliki konfigurasi teknologi yang berbeda satu sama lain.</li>
+        <li>Cookie Policy akan ditinjau dan diperbarui ketika produk memasuki tahap produksi atau dirilis kepada publik.</li>
+        <li>Pengguna harus merujuk kepada versi terbaru kebijakan yang berlaku saat menggunakan produk.</li>
+      </ul>
+    </section>
+
+    <!-- META CARD -->
+    <section class="meta-card" aria-label="Informasi Dokumen">
+      <div class="meta-grid">
+        <div class="meta-item">
+          <span class="meta-label">Developer</span>
+          <span class="meta-value">AppHub.ID</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Jenis Dokumen</span>
+          <span class="meta-value">Cookie Policy</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Status</span>
+          <span class="meta-value">Sementara / Pre-Release</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Versi</span>
+          <span class="meta-value">0.1 Pre-Release</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Effective Date</span>
+          <span class="meta-value placeholder">[DD Month YYYY]</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Last Updated</span>
+          <span class="meta-value placeholder">[DD Month YYYY]</span>
+        </div>
+        <div class="meta-item full">
+          <span class="meta-label">Kontak Resmi</span>
+          <span class="meta-value placeholder">[EMAIL RESMI APPHUB.ID]</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOC -->
+    <nav class="toc" id="toc" aria-label="Daftar Isi">
+      <button class="toc-toggle" id="tocToggle" type="button" aria-expanded="false" aria-controls="tocBody">
+        <span>Daftar Isi Dokumen</span>
+        <span style="display:flex;align-items:center;gap:10px;">
+          <span class="toc-count">35 Bagian</span>
+          <svg class="toc-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
+      </button>
+      <div class="toc-body" id="tocBody">
+        <ul class="toc-list">
+          <li><a href="#bagian-1"><span class="toc-num">01</span>Pendahuluan</a></li>
+          <li><a href="#bagian-2"><span class="toc-num">02</span>Status Pre-Release</a></li>
+          <li><a href="#bagian-3"><span class="toc-num">03</span>Apa Itu Cookie</a></li>
+          <li><a href="#bagian-4"><span class="toc-num">04</span>Teknologi Serupa Cookie</a></li>
+          <li><a href="#bagian-5"><span class="toc-num">05</span>Jenis Cookie Berdasarkan Sumber</a></li>
+          <li><a href="#bagian-6"><span class="toc-num">06</span>Jenis Cookie Berdasarkan Fungsi</a></li>
+          <li><a href="#bagian-7"><span class="toc-num">07</span>Cookie Berdasarkan Masa Berlaku</a></li>
+          <li><a href="#bagian-8"><span class="toc-num">08</span>Fungsi Cookie yang Mungkin Diterapkan</a></li>
+          <li><a href="#bagian-9"><span class="toc-num">09</span>Cookie pada Produk AppHub.ID</a></li>
+          <li><a href="#bagian-10"><span class="toc-num">10</span>Cookie pada Aplikasi Mobile</a></li>
+          <li><a href="#bagian-11"><span class="toc-num">11</span>Cookie dan PWA</a></li>
+          <li><a href="#bagian-12"><span class="toc-num">12</span>Cookie dan Browser Storage</a></li>
+          <li><a href="#bagian-13"><span class="toc-num">13</span>Cookie untuk Keamanan</a></li>
+          <li><a href="#bagian-14"><span class="toc-num">14</span>Analytics</a></li>
+          <li><a href="#bagian-15"><span class="toc-num">15</span>Advertising</a></li>
+          <li><a href="#bagian-16"><span class="toc-num">16</span>Third-Party Technologies</a></li>
+          <li><a href="#bagian-17"><span class="toc-num">17</span>Cara Pengguna Mengendalikan Cookie</a></li>
+          <li><a href="#bagian-18"><span class="toc-num">18</span>Cookie Consent</a></li>
+          <li><a href="#bagian-19"><span class="toc-num">19</span>Cookie yang Tidak Diperlukan</a></li>
+          <li><a href="#bagian-20"><span class="toc-num">20</span>Privasi dan Cookie</a></li>
+          <li><a href="#bagian-21"><span class="toc-num">21</span>Data Pribadi dan Cookie</a></li>
+          <li><a href="#bagian-22"><span class="toc-num">22</span>Retensi Cookie</a></li>
+          <li><a href="#bagian-23"><span class="toc-num">23</span>Perubahan Cookie</a></li>
+          <li><a href="#bagian-24"><span class="toc-num">24</span>Produk Pihak Ketiga</a></li>
+          <li><a href="#bagian-25"><span class="toc-num">25</span>Tautan Eksternal</a></li>
+          <li><a href="#bagian-26"><span class="toc-num">26</span>Teknologi yang Belum Ditentukan</a></li>
+          <li><a href="#bagian-27"><span class="toc-num">27</span>Tidak Ada Klaim Cookie Aktif</a></li>
+          <li><a href="#bagian-28"><span class="toc-num">28</span>Pengguna Tanpa Cookie</a></li>
+          <li><a href="#bagian-29"><span class="toc-num">29</span>Cookie pada Website Statis</a></li>
+          <li><a href="#bagian-30"><span class="toc-num">30</span>Anak dan Pengguna di Bawah Umur</a></li>
+          <li><a href="#bagian-31"><span class="toc-num">31</span>Hak Pengguna</a></li>
+          <li><a href="#bagian-32"><span class="toc-num">32</span>Yurisdiksi</a></li>
+          <li><a href="#bagian-33"><span class="toc-num">33</span>Riwayat Versi</a></li>
+          <li><a href="#bagian-34"><span class="toc-num">34</span>Perubahan Cookie Policy</a></li>
+          <li><a href="#bagian-35"><span class="toc-num">35</span>Kontak</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- NOTICE -->
+    <div class="notice">
+      <p class="notice-title">Perhatian</p>
+      <p>
+        Dokumen ini disusun sebagai kerangka kebijakan cookie awal AppHub.ID.
+        Penyebutan suatu kategori cookie, teknologi, atau vendor di dalam dokumen
+        ini <strong>tidak</strong> boleh ditafsirkan sebagai konfirmasi bahwa
+        seluruh teknologi tersebut sudah digunakan pada produk AppHub.ID. Praktik
+        aktual akan dijelaskan pada versi kebijakan yang berlaku saat produk
+        dirilis.
+      </p>
+    </div>
+
+    <!-- ============ BAGIAN 1 ============ -->
+    <article class="section" id="bagian-1">
+      <div class="section-head">
+        <div class="section-num">01</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 1</p>
+          <h2 class="section-title">Pendahuluan</h2>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">1.1</span>Identitas AppHub.ID</h3>
+        <p>
+          AppHub.ID adalah pengembang perangkat lunak independen yang merancang,
+          membangun, dan merencanakan distribusi berbagai aplikasi digital dan
+          permainan elektronik untuk perangkat bergerak. Dokumen ini merupakan
+          dokumen kebijakan cookie terpusat yang disusun untuk menjelaskan bagaimana
+          teknologi cookie dan teknologi serupa dapat digunakan pada produk-produk
+          dalam lingkup pengembangan AppHub.ID.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">1.2</span>Tujuan Cookie Policy</h3>
+        <p>
+          Cookie Policy ini bertujuan memberikan gambaran awal mengenai jenis-jenis
+          cookie, teknologi serupa, mekanisme penyimpanan browser, serta kontrol
+          yang tersedia bagi pengguna. Dokumen ini membantu pengguna memahami
+          bagaimana teknologi tersebut dapat digunakan pada produk AppHub.ID.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">1.3</span>Ruang Lingkup Dokumen</h3>
+        <p>
+          Ruang lingkup dokumen ini mencakup situs web, aplikasi berbasis web,
+          aplikasi bergerak, serta produk lain yang dikembangkan AppHub.ID, sejauh
+          teknologi cookie dan teknologi serupa digunakan pada produk tersebut.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">1.4</span>Hubungan dengan Produk AppHub.ID</h3>
+        <p>
+          Setiap produk AppHub.ID dapat memiliki kebutuhan teknologi yang
+          berbeda-beda. Dokumen ini menjelaskan kemungkinan penggunaan cookie dan
+          teknologi serupa secara umum, bukan sebagai pernyataan final untuk
+          masing-masing produk.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">1.5</span>Perbedaan dengan Privacy Policy</h3>
+        <p>
+          Cookie Policy berfokus pada teknologi cookie dan teknologi serupa.
+          Privacy Policy AppHub.ID berfokus pada informasi pribadi dan pemrosesan
+          data secara lebih luas. Kedua dokumen saling melengkapi, namun tidak
+          saling menggantikan.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">1.6</span>Mengapa Pengguna Perlu Memahami Cookie</h3>
+        <p>
+          Memahami cookie membantu pengguna mengendalikan preferensi, privasi, dan
+          pengalaman saat menggunakan produk digital. Pengetahuan dasar mengenai
+          cookie juga membantu pengguna memahami bagaimana layanan web pada umumnya
+          beroperasi.
+        </p>
+      </div>
+    </article>
+
+    <!-- ============ BAGIAN 2 ============ -->
+    <article class="section" id="bagian-2">
+      <div class="section-head">
+        <div class="section-num">02</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 2</p>
+          <h2 class="section-title">Status Pre-Release</h2>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">2.1</span>Dokumen Masih Sementara</h3>
+        <p>
+          Dokumen ini merupakan versi sementara (<em>pre-release</em>) yang disusun
+          sebelum seluruh atau sebagian produk AppHub.ID dirilis kepada publik.
+          Isi dokumen ini belum mencerminkan praktik final setiap produk.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">2.2</span>Produk Masih Dikembangkan</h3>
+        <p>
+          Produk-produk AppHub.ID berada pada tahap pengembangan yang berbeda.
+          Sebagian masih dalam perencanaan, sebagian dalam pengembangan, dan
+          sebagian lain mungkin sudah dipersiapkan untuk distribusi.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">2.3</span>Teknologi Aktual Dapat Berubah</h3>
+        <p>
+          Teknologi cookie dan teknologi serupa yang digunakan pada setiap produk
+          dapat berubah selama proses pengembangan. Perubahan tersebut dapat
+          mencakup penambahan, pengurangan, atau penggantian teknologi.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">2.4</span>Tidak Semua Cookie Akan Digunakan</h3>
+        <p>
+          Kategori cookie yang dibahas dalam dokumen ini tidak berarti bahwa
+          seluruh kategori tersebut akan digunakan pada produk AppHub.ID. Setiap
+          kategori diterapkan hanya jika memang dibutuhkan oleh produk terkait.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">2.5</span>Daftar Teknologi Dapat Berubah</h3>
+        <p>
+          Daftar teknologi yang disebutkan dalam dokumen ini bersifat indikatif.
+          AppHub.ID dapat menambah, mengurangi, atau mengganti teknologi seiring
+          perkembangan produk.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">2.6</span>Dokumen Akan Diperbarui Saat Produk Dirilis</h3>
+        <p>
+          Ketika suatu produk AppHub.ID memasuki tahap produksi atau dirilis kepada
+          publik, dokumen ini akan diperbarui agar mencerminkan implementasi aktual
+          produk tersebut.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">2.7</span>Konfigurasi Produksi Dapat Berbeda</h3>
+        <p>
+          Konfigurasi teknologi pada tahap produksi dapat berbeda dari konfigurasi
+          pada tahap pengembangan. Perbedaan tersebut dapat mencakup tingkat
+          keamanan, jenis cookie, dan penggunaan layanan pihak ketiga.
+        </p>
+      </div>
+
+      <div class="callout callout-warn">
+        <p><strong>Penting:</strong> Daftar kategori teknologi dalam dokumen ini
+        bukan bukti bahwa seluruh kategori tersebut telah aktif pada produk
+        AppHub.ID. Semua pernyataan bersifat bersyarat sampai kebijakan final
+        diterbitkan.</p>
+      </div>
+    </article>
+
+    <!-- ============ BAGIAN 3 ============ -->
+    <article class="section" id="bagian-3">
+      <div class="section-head">
+        <div class="section-num">03</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 3</p>
+          <h2 class="section-title">Apa Itu Cookie</h2>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">3.1</span>Definisi Cookie</h3>
+        <p>
+          Cookie adalah berkas data berukuran kecil yang disimpan oleh browser
+          pada perangkat pengguna ketika mengunjungi suatu situs web. Cookie
+          memungkinkan situs web atau layanan tertentu mengenali perangkat
+          pengguna pada kunjungan berikutnya.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">3.2</span>Cara Kerja Cookie Secara Umum</h3>
+        <p>
+          Ketika pengguna mengunjungi suatu situs web, situs tersebut dapat meminta
+          browser untuk menyimpan cookie. Pada kunjungan berikutnya, browser akan
+          mengirimkan kembali cookie yang relevan kepada situs web yang membuatnya,
+          sehingga situs dapat mengenali pengguna atau mengingat preferensi tertentu.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">3.3</span>Hubungan Cookie dengan Browser</h3>
+        <p>
+          Cookie dikelola oleh browser. Browser dapat menampilkan, membatasi, atau
+          menghapus cookie sesuai pengaturan yang dipilih pengguna. Perilaku
+          pengelolaan cookie dapat berbeda antar browser.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">3.4</span>Cookie sebagai Data Kecil</h3>
+        <p>
+          Ukuran cookie umumnya sangat kecil, biasanya hanya beberapa ratus byte.
+          Cookie tidak dirancang untuk menyimpan data dalam jumlah besar, dan
+          biasanya hanya memuat informasi tertentu seperti pengenal sesi atau
+          preferensi singkat.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">3.5</span>Kapan Cookie Dapat Dibuat</h3>
+        <p>
+          Cookie dapat dibuat ketika pengguna mengunjungi situs web yang menggunakan
+          cookie, berinteraksi dengan fitur tertentu, atau mengakses sumber daya
+          yang menetapkan cookie.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">3.6</span>Bagaimana Cookie Dibaca Kembali</h3>
+        <p>
+          Cookie dibaca kembali oleh situs web atau pihak yang membuatnya pada
+          kunjungan berikutnya. Browser secara otomatis mengirimkan cookie yang
+          relevan sesuai domain dan jalur yang ditentukan.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">3.7</span>Perbedaan Cookie dengan File Biasa</h3>
+        <p>
+          Cookie berbeda dari berkas biasa karena cookie dikelola langsung oleh
+          browser dan umumnya tidak dapat diakses oleh pengguna secara langsung
+          melalui pengelola berkas. Cookie juga memiliki mekanisme pengiriman
+          otomatis ke situs yang membuatnya.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">3.8</span>Perbedaan Cookie dengan Database</h3>
+        <p>
+          Cookie bukanlah database. Cookie adalah mekanisme penyimpanan kecil
+          pada sisi klien, sedangkan database umumnya merupakan sistem penyimpanan
+          yang lebih besar dan terstruktur yang berada pada sisi server.
+        </p>
+      </div>
+    </article>
+
+    <!-- ============ BAGIAN 4 ============ -->
+    <article class="section" id="bagian-4">
+      <div class="section-head">
+        <div class="section-num">04</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 4</p>
+          <h2 class="section-title">Teknologi yang Serupa dengan Cookie</h2>
+        </div>
+      </div>
+
+      <p>
+        Selain cookie, terdapat berbagai teknologi lain yang memiliki fungsi
+        serupa atau saling melengkapi. Bagian ini menjelaskan teknologi tersebut
+        secara umum. Penyebutan teknologi di bawah ini <strong>tidak berarti</strong>
+        AppHub.ID saat ini menggunakan semuanya.
+      </p>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">4.1</span>Local Storage</h3>
+        <p>
+          Local storage adalah mekanisme penyimpanan pada browser yang memungkinkan
+          situs web menyimpan data dalam jumlah lebih besar dibanding cookie.
+          Local storage umumnya bersifat persisten hingga dihapus secara manual.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">4.2</span>Session Storage</h3>
+        <p>
+          Session storage mirip dengan local storage, namun data yang disimpan
+          hanya bertahan selama sesi browser berlangsung. Setelah tab atau
+          jendela browser ditutup, data session storage umumnya dihapus.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">4.3</span>IndexedDB</h3>
+        <p>
+          IndexedDB adalah sistem penyimpanan yang lebih canggih pada browser,
+          memungkinkan penyimpanan data terstruktur dalam jumlah lebih besar.
+          Teknologi ini umumnya digunakan oleh aplikasi web yang memerlukan
+          penyimpanan lokal kompleks.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">4.4</span>Browser Cache</h3>
+        <p>
+          Browser cache menyimpan salinan sementara dari sumber daya web, seperti
+          gambar, skrip, dan halaman, agar dapat dimuat lebih cepat pada kunjungan
+          berikutnya. Cache umumnya tidak berisi data pribadi pengguna.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">4.5</span>Web Storage</h3>
+        <p>
+          Web storage adalah istilah umum yang mencakup local storage dan session
+          storage. Teknologi ini menyediakan mekanisme penyimpanan pada sisi klien
+          yang berbeda dari cookie.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">4.6</span>Device Identifiers</h3>
+        <p>
+          Device identifier adalah pengenal yang terkait dengan perangkat tertentu.
+          Pengenal ini dapat digunakan untuk membedakan perangkat, namun
+          penerapannya bergantung pada kebijakan platform dan sistem operasi.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">4.7</span>Pixel dan Tracking Pixels</h3>
+        <p>
+          Tracking pixel adalah elemen gambar berukuran sangat kecil yang dapat
+          digunakan untuk mencatat kunjungan atau interaksi tertentu. Teknologi
+          ini umumnya digunakan pada konteks analitik atau iklan.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">4.8</span>SDK (Software Development Kit)</h3>
+        <p>
+          SDK adalah kumpulan alat pengembangan yang dapat disertakan dalam
+          aplikasi untuk menyediakan fungsi tertentu, misalnya analitik atau
+          crash reporting. SDK pihak ketiga dapat memiliki mekanisme
+          pengumpulan data sendiri.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">4.9</span>Fingerprinting Secara Umum</h3>
+        <p>
+          Fingerprinting adalah teknik mengumpulkan kombinasi karakteristik
+          perangkat atau browser untuk menghasilkan pengenal yang relatif unik.
+          Teknik ini memiliki implikasi privasi dan biasanya diatur oleh
+          ketentuan hukum yang berlaku.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">4.10</span>Tag dan Script Tracking</h3>
+        <p>
+          Tag atau script tracking adalah potongan kode yang disertakan pada
+          halaman web untuk mencatat aktivitas tertentu. Teknologi ini sering
+          digunakan bersama cookie untuk keperluan analitik atau iklan.
+        </p>
+      </div>
+
+      <div class="callout callout-warn">
+        <p><strong>Catatan:</strong> Pembahasan teknologi di atas bersifat
+        edukatif. AppHub.ID tidak menyatakan bahwa seluruh teknologi tersebut
+        digunakan pada produknya saat ini.</p>
+      </div>
+    </article>
+
+    <!-- ============ BAGIAN 5 ============ -->
+    <article class="section" id="bagian-5">
+      <div class="section-head">
+        <div class="section-num">05</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 5</p>
+          <h2 class="section-title">Jenis Cookie Berdasarkan Sumber</h2>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">5.1</span>First-Party Cookies</h3>
+        <p>
+          First-party cookies adalah cookie yang dibuat oleh domain atau situs web
+          yang sedang dikunjungi pengguna. Cookie ini umumnya digunakan untuk
+          fungsi dasar situs, seperti mempertahankan sesi atau menyimpan
+          preferensi pengguna.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">5.2</span>Third-Party Cookies</h3>
+        <p>
+          Third-party cookies adalah cookie yang dibuat oleh domain selain situs
+          yang sedang dikunjungi. Cookie ini umumnya digunakan untuk keperluan
+          analitik, iklan, atau fungsi lain yang disediakan oleh pihak ketiga.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">5.3</span>Perbedaan yang Perlu Dipahami</h3>
+        <p>
+          Perbedaan utama antara first-party dan third-party cookie terletak pada
+          domain yang membuatnya. First-party cookie dikelola oleh situs yang
+          dikunjungi, sedangkan third-party cookie dikelola oleh pihak lain yang
+          terintegrasi dengan situs tersebut.
+        </p>
+      </div>
+
+      <p>
+        AppHub.ID dapat menggunakan salah satu atau kedua jenis cookie di atas,
+        tergantung pada kebutuhan produk dan layanan pihak ketiga yang digunakan.
+      </p>
+    </article>
+
+    <!-- ============ BAGIAN 6 ============ -->
+    <article class="section" id="bagian-6">
+      <div class="section-head">
+        <div class="section-num">06</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 6</p>
+          <h2 class="section-title">Jenis Cookie Berdasarkan Fungsi</h2>
+        </div>
+      </div>
+
+      <p>
+        Cookie dan teknologi serupa dapat diklasifikasikan berdasarkan fungsinya.
+        Klasifikasi di bawah ini bersifat umum dan <strong>tidak</strong> berarti
+        bahwa seluruh kategori digunakan pada produk AppHub.ID.
+      </p>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">6.1</span>Strictly Necessary Cookies</h3>
+        <p>
+          Teknologi yang dibutuhkan agar fitur dasar tertentu dapat berfungsi,
+          seperti mempertahankan sesi atau memastikan integritas layanan. Tanpa
+          teknologi ini, sebagian fitur mungkin tidak dapat berjalan sebagaimana
+          mestinya.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">6.2</span>Functional Cookies</h3>
+        <p>
+          Teknologi yang menyimpan preferensi atau pengaturan pengguna, seperti
+          pilihan bahasa, tema, atau konfigurasi lain yang memengaruhi pengalaman
+          penggunaan.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">6.3</span>Analytics / Performance Cookies</h3>
+        <p>
+          Teknologi yang membantu memahami penggunaan dan performa layanan.
+          Teknologi ini dapat digunakan untuk mengukur kunjungan, mengidentifikasi
+          kesalahan, atau memantau performa sistem.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">6.4</span>Advertising Cookies</h3>
+        <p>
+          Teknologi yang digunakan untuk menampilkan iklan atau mengukur efektivitas
+          iklan. Teknologi ini umumnya terkait dengan layanan pihak ketiga.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">6.5</span>Security-related Technologies</h3>
+        <p>
+          Teknologi yang digunakan untuk keamanan, pencegahan penyalahgunaan, dan
+          perlindungan layanan. Teknologi ini dapat membantu mendeteksi aktivitas
+          yang mencurigakan atau melindungi integritas sistem.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">6.6</span>Preference Technologies</h3>
+        <p>
+          Teknologi yang menyimpan preferensi tertentu, seperti pengaturan tampilan,
+          bahasa, atau konfigurasi lain yang dipilih pengguna.
+        </p>
+      </div>
+
+      <div class="callout callout-warn">
+        <p><strong>Catatan:</strong> Kategori di atas merupakan klasifikasi umum.
+        AppHub.ID tidak menyatakan bahwa seluruh kategori tersebut digunakan pada
+        setiap produknya.</p>
+      </div>
+    </article>
+
+    <!-- ============ BAGIAN 7 ============ -->
+    <article class="section" id="bagian-7">
+      <div class="section-head">
+        <div class="section-num">07</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 7</p>
+          <h2 class="section-title">Cookie Berdasarkan Masa Berlaku</h2>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">7.1</span>Session Cookies</h3>
+        <p>
+          Session cookie adalah cookie yang hanya bertahan selama sesi browser
+          berlangsung. Cookie ini umumnya dihapus secara otomatis ketika pengguna
+          menutup browser atau tab yang bersangkutan.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">7.2</span>Persistent Cookies</h3>
+        <p>
+          Persistent cookie adalah cookie yang bertahan dalam jangka waktu tertentu
+          sesuai pengaturan yang ditetapkan. Cookie ini dapat digunakan untuk
+          menyimpan preferensi jangka panjang atau mengenali pengguna pada
+          kunjungan berikutnya.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">7.3</span>Masa Berlaku</h3>
+        <p>
+          Masa berlaku cookie ditentukan pada saat cookie dibuat. Setelah masa
+          berlaku berakhir, cookie akan dihapus secara otomatis oleh browser.
+          Durasi aktual bergantung pada implementasi produk.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">7.4</span>Penghapusan Otomatis dan Manual</h3>
+        <p>
+          Cookie dapat dihapus secara otomatis oleh browser berdasarkan masa
+          berlaku, atau secara manual oleh pengguna melalui pengaturan browser.
+          Penghapusan manual umumnya menghapus seluruh cookie yang tersimpan pada
+          browser.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">7.5</span>Perbedaan Perilaku Antar Browser</h3>
+        <p>
+          Perilaku pengelolaan cookie dapat berbeda antar browser, tergantung pada
+          versi, pengaturan, dan kebijakan masing-masing browser. Pengguna
+          dianjurkan memahami perilaku browser yang digunakannya.
+        </p>
+      </div>
+    </article>
+
+    <!-- ============ BAGIAN 8 ============ -->
+    <article class="section" id="bagian-8">
+      <div class="section-head">
+        <div class="section-num">08</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 8</p>
+          <h2 class="section-title">Fungsi Cookie yang Mungkin Diterapkan</h2>
+        </div>
+      </div>
+
+      <p>
+        Apabila produk AppHub.ID menggunakan cookie atau teknologi serupa, maka
+        teknologi tersebut dapat memiliki fungsi-fungsi berikut. Fungsi aktual
+        bergantung pada kebutuhan masing-masing produk dan implementasi yang
+        diterapkan.
+      </p>
+
+      <ul>
+        <li>Mempertahankan sesi pengguna selama penggunaan produk;</li>
+        <li>Menyimpan preferensi pengguna, seperti tema, bahasa, atau pengaturan tampilan;</li>
+        <li>Menjaga fungsi tertentu agar berjalan dengan baik;</li>
+        <li>Mendukung mekanisme keamanan dan pencegahan penyalahgunaan;</li>
+        <li>Mendukung analitik untuk memahami performa produk, apabila analytics diterapkan;</li>
+        <li>Mengukur performa sistem atau fitur tertentu;</li>
+        <li>Mengukur penggunaan fitur untuk keperluan peningkatan kualitas, apabila diterapkan;</li>
+        <li>Menyediakan personalisasi pengalaman pengguna, apabila diterapkan;</li>
+        <li>Mendukung penayangan atau pengukuran iklan, apabila produk menampilkan iklan;</li>
+        <li>Mendukung pencegahan penyalahgunaan layanan.</li>
+      </ul>
+
+      <div class="callout">
+        <p><strong>Catatan:</strong> Fungsi-fungsi di atas bersifat bersyarat.
+        Tidak semua produk AppHub.ID menerapkan seluruh fungsi tersebut.</p>
+      </div>
+    </article>
+
+    <!-- ============ BAGIAN 9 ============ -->
+    <article class="section" id="bagian-9">
+      <div class="section-head">
+        <div class="section-num">09</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 9</p>
+          <h2 class="section-title">Cookie pada Produk AppHub.ID</h2>
+        </div>
+      </div>
+
+      <p>
+        Setiap produk AppHub.ID dapat memiliki kebutuhan teknologi yang berbeda.
+        Bagian ini menjelaskan kemungkinan penggunaan teknologi cookie pada
+        masing-masing produk. <strong>Tidak ada pernyataan</strong> bahwa setiap
+        produk benar-benar menggunakan cookie.
+      </p>
+
+      <div class="product-list">
+        <div class="product-item">
+          <span class="product-icon" aria-hidden="true">🏙️</span>
+          <div class="product-body">
+            <p class="product-name">Portal Wilayah Perawang</p>
+            <p class="product-desc">Website informasi wilayah dapat menggunakan teknologi untuk fungsi dasar, preferensi, atau analitik apabila diterapkan.</p>
+          </div>
+        </div>
+        <div class="product-item">
+          <span class="product-icon" aria-hidden="true">📈</span>
+          <div class="product-body">
+            <p class="product-name">InvestasiKu</p>
+            <p class="product-desc">Dapat menggunakan teknologi untuk preferensi, pengukuran penggunaan, atau fitur web tertentu apabila tersedia.</p>
+          </div>
+        </div>
+        <div class="product-item">
+          <span class="product-icon" aria-hidden="true">🎓</span>
+          <div class="product-body">
+            <p class="product-name">StudentOS</p>
+            <p class="product-desc">Kemungkinan kebutuhan sesi, preferensi, atau teknologi aplikasi web apabila versi web tersedia.</p>
+          </div>
+        </div>
+        <div class="product-item">
+          <span class="product-icon" aria-hidden="true">💰</span>
+          <div class="product-body">
+            <p class="product-name">BudgetKu</p>
+            <p class="product-desc">Kemungkinan penyimpanan preferensi atau fungsi web tertentu, apabila produk menyediakan versi web.</p>
+          </div>
+        </div>
+        <div class="product-item">
+          <span class="product-icon" aria-hidden="true">💼</span>
+          <div class="product-body">
+            <p class="product-name">Kerja &amp; Magang Hub</p>
+            <p class="product-desc">Kemungkinan teknologi untuk preferensi, sesi, atau analitik apabila diterapkan.</p>
+          </div>
+        </div>
+        <div class="product-item">
+          <span class="product-icon" aria-hidden="true">📚</span>
+          <div class="product-body">
+            <p class="product-name">StudyFlow</p>
+            <p class="product-desc">Kemungkinan kebutuhan penyimpanan preferensi atau sesi, apabila versi web tersedia.</p>
+          </div>
+        </div>
+        <div class="product-item">
+          <span class="product-icon" aria-hidden="true">📝</span>
+          <div class="product-body">
+            <p class="product-name">PaperHelper</p>
+            <p class="product-desc">Kemungkinan teknologi browser terkait fungsi pengolahan dokumen atau teks apabila ada versi web.</p>
+          </div>
+        </div>
+        <div class="product-item">
+          <span class="product-icon" aria-hidden="true">🕵️</span>
+          <div class="product-body">
+            <p class="product-name">Mystery Case Archive</p>
+            <p class="product-desc">Kemungkinan penyimpanan preferensi dan progres apabila versi web menggunakan teknologi tersebut.</p>
+          </div>
+        </div>
+        <div class="product-item">
+          <span class="product-icon" aria-hidden="true">🔐</span>
+          <div class="product-body">
+            <p class="product-name">Cybersecurity Learning Lab</p>
+            <p class="product-desc">Kemungkinan kebutuhan teknologi untuk keamanan dan fungsi pembelajaran apabila versi web tersedia.</p>
+          </div>
+        </div>
+        <div class="product-item">
+          <span class="product-icon" aria-hidden="true">🏠</span>
+          <div class="product-body">
+            <p class="product-name">KostKu</p>
+            <p class="product-desc">Kemungkinan penyimpanan preferensi dan fungsi tertentu, apabila produk menyediakan versi web.</p>
+          </div>
+        </div>
+        <div class="product-item">
+          <span class="product-icon" aria-hidden="true">🛠️</span>
+          <div class="product-body">
+            <p class="product-name">Android Diagnostic Lab</p>
+            <p class="product-desc">Kemungkinan kebutuhan teknologi web hanya apabila produk versi web benar-benar diterapkan.</p>
+          </div>
+        </div>
+        <div class="product-item">
+          <span class="product-icon" aria-hidden="true">📝</span>
+          <div class="product-body">
+            <p class="product-name">Document &amp; Text Toolkit</p>
+            <p class="product-desc">Kemungkinan penggunaan teknologi browser untuk preferensi dan fungsi alat apabila versi web tersedia.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="callout callout-warn">
+        <p><strong>Penting:</strong> Deskripsi di atas bersifat indikatif. AppHub.ID
+        tidak menyatakan bahwa setiap produk benar-benar menggunakan cookie.
+        Implementasi aktual akan dijelaskan pada kebijakan yang berlaku saat
+        produk dirilis.</p>
+      </div>
+    </article>
+
+    <!-- ============ BAGIAN 10 ============ -->
+    <article class="section" id="bagian-10">
+      <div class="section-head">
+        <div class="section-num">10</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 10</p>
+          <h2 class="section-title">Cookie pada Aplikasi Mobile</h2>
+        </div>
+      </div>
+
+      <p>
+        Konsep cookie terutama berkaitan dengan situs web dan browser. Pada
+        aplikasi native atau mobile, teknologi yang digunakan dapat berbeda
+        karena arsitektur aplikasi tidak selalu menggunakan mekanisme cookie.
+      </p>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">10.1</span>Website</h3>
+        <p>
+          Website yang diakses melalui browser umumnya tunduk pada mekanisme
+          cookie standar yang dikelola oleh browser.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">10.2</span>Web App</h3>
+        <p>
+          Aplikasi berbasis web yang berjalan di browser dapat menggunakan cookie
+          dan teknologi penyimpanan browser lainnya.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">10.3</span>PWA (Progressive Web App)</h3>
+        <p>
+          PWA adalah aplikasi web yang dapat dipasang pada perangkat. PWA dapat
+          menggunakan service worker, cache, dan penyimpanan browser lainnya,
+          tergantung pada implementasi.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">10.4</span>Aplikasi Android</h3>
+        <p>
+          Aplikasi Android native umumnya tidak menggunakan cookie standar,
+          tetapi dapat menggunakan mekanisme penyimpanan lain seperti preferensi
+          lokal, basis data lokal, atau SDK pihak ketiga.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">10.5</span>Aplikasi iPhone / iOS</h3>
+        <p>
+          Aplikasi iOS native umumnya tidak menggunakan cookie standar, tetapi
+          dapat menggunakan mekanisme penyimpanan lain yang disediakan oleh
+          sistem operasi.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">10.6</span>Browser Embedded dan WebView</h3>
+        <p>
+          Aplikasi mobile dapat menampilkan konten web melalui komponen
+          <em>WebView</em> atau browser embedded. Pada kondisi tersebut, mekanisme
+          cookie dapat berlaku sesuai perilaku komponen yang digunakan.
+        </p>
+      </div>
+
+      <p>
+        Penggunaan teknologi pada aplikasi mobile bergantung pada arsitektur
+        masing-masing produk AppHub.ID.
+      </p>
+    </article>
+
+    <!-- ============ BAGIAN 11 ============ -->
+    <article class="section" id="bagian-11">
+      <div class="section-head">
+        <div class="section-num">11</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 11</p>
+          <h2 class="section-title">Cookie dan PWA</h2>
+        </div>
+      </div>
+
+      <p>
+        Progressive Web App (PWA) adalah pendekatan pengembangan web yang
+        memungkinkan situs berfungsi menyerupai aplikasi, termasuk kemampuan
+        untuk diakses secara offline. PWA dapat menggunakan beberapa teknologi
+        berikut:
+      </p>
+
+      <ul>
+        <li><strong>Service worker</strong> — skrip yang berjalan di latar belakang untuk mendukung fungsi offline, caching, dan penanganan permintaan jaringan;</li>
+        <li><strong>Cache</strong> — penyimpanan sementara untuk sumber daya agar dapat dimuat lebih cepat;</li>
+        <li><strong>Browser storage</strong> — berbagai mekanisme penyimpanan pada browser seperti local storage atau IndexedDB;</li>
+        <li><strong>Web application storage</strong> — mekanisme penyimpanan yang terkait dengan aplikasi web tertentu.</li>
+      </ul>
+
+      <p>
+        Penggunaan PWA pada produk AppHub.ID dapat berbeda berdasarkan produk.
+        Dokumen ini tidak mengaktifkan atau menerapkan teknologi PWA pada dirinya
+        sendiri.
+      </p>
+    </article>
+
+    <!-- ============ BAGIAN 12 ============ -->
+    <article class="section" id="bagian-12">
+      <div class="section-head">
+        <div class="section-num">12</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 12</p>
+          <h2 class="section-title">Cookie dan Browser Storage</h2>
+        </div>
+      </div>
+
+      <p>
+        Browser menyediakan beberapa mekanisme penyimpanan yang memiliki
+        karakteristik berbeda. Perbandingan di bawah ini membantu memahami
+        perbedaan di antara teknologi tersebut.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data-table" aria-label="Perbandingan teknologi penyimpanan browser">
+          <thead>
+            <tr>
+              <th>Teknologi</th>
+              <th>Karakteristik &amp; Batasan</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Cookie</td>
+              <td>Ukuran kecil, dikirim otomatis ke server pada setiap permintaan, dapat dibatasi oleh browser.</td>
+            </tr>
+            <tr>
+              <td>localStorage</td>
+              <td>Kapasitas lebih besar, bersifat persisten hingga dihapus manual, tidak dikirim otomatis ke server.</td>
+            </tr>
+            <tr>
+              <td>sessionStorage</td>
+              <td>Mirip localStorage, namun hanya bertahan selama sesi browser.</td>
+            </tr>
+            <tr>
+              <td>IndexedDB</td>
+              <td>Menyimpan data terstruktur dalam jumlah lebih besar, cocok untuk aplikasi web kompleks.</td>
+            </tr>
+            <tr>
+              <td>Cache</td>
+              <td>Menyimpan salinan sumber daya untuk mempercepat pemuatan, umumnya tidak berisi data pribadi.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        AppHub.ID tidak menyatakan bahwa seluruh teknologi di atas digunakan
+        pada produknya. Pemilihan teknologi bergantung pada kebutuhan masing-masing
+        produk.
+      </p>
+    </article>
+
+    <!-- ============ BAGIAN 13 ============ -->
+    <article class="section" id="bagian-13">
+      <div class="section-head">
+        <div class="section-num">13</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 13</p>
+          <h2 class="section-title">Cookie untuk Keamanan</h2>
+        </div>
+      </div>
+
+      <p>
+        Cookie dan teknologi serupa dapat digunakan untuk mendukung aspek keamanan
+        layanan. Fungsi keamanan yang mungkin didukung mencakup:
+      </p>
+
+      <ul>
+        <li>Mencegah penyalahgunaan layanan;</li>
+        <li>Mendeteksi sesi yang tidak sah;</li>
+        <li>Membantu perlindungan terhadap serangan tertentu;</li>
+        <li>Menjaga integritas layanan.</li>
+      </ul>
+
+      <p>
+        Dokumen ini tidak memberikan instruksi teknis mengenai serangan atau
+        bypass keamanan. Tujuan pembahasan ini adalah memberikan pemahaman umum
+        mengenai bagaimana teknologi cookie dapat mendukung keamanan layanan.
+      </p>
+    </article>
+
+    <!-- ============ BAGIAN 14 ============ -->
+    <article class="section" id="bagian-14">
+      <div class="section-head">
+        <div class="section-num">14</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 14</p>
+          <h2 class="section-title">Analytics</h2>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">14.1</span>Apa Itu Analytics</h3>
+        <p>
+          Analytics adalah proses mengumpulkan dan menganalisis data penggunaan
+          untuk memahami bagaimana layanan digunakan, mengidentifikasi masalah,
+          dan meningkatkan kualitas layanan.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">14.2</span>Data Penggunaan yang Mungkin Diukur</h3>
+        <p>
+          Apabila analytics diterapkan, data yang mungkin diukur dapat mencakup
+          pola penggunaan fitur, durasi penggunaan, dan interaksi umum dengan
+          produk.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">14.3</span>Tujuan Analitik</h3>
+        <p>
+          Tujuan analitik umumnya mencakup pemahaman performa produk, identifikasi
+          kesalahan, dan peningkatan pengalaman pengguna.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">14.4</span>Performa dan Error</h3>
+        <p>
+          Analytics dapat digunakan untuk memantau performa sistem dan mencatat
+          kesalahan yang muncul, sehingga dapat dilakukan perbaikan.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">14.5</span>Penggunaan Fitur</h3>
+        <p>
+          Analytics dapat membantu memahami fitur mana yang paling sering
+          digunakan dan fitur mana yang memerlukan peningkatan.
+        </p>
+      </div>
+
+      <div class="callout callout-warn">
+        <p><strong>Catatan:</strong> Tidak semua produk AppHub.ID menggunakan
+        analytics. Apabila analytics diterapkan, penjelasan lebih lanjut akan
+        disediakan pada kebijakan yang berlaku untuk produk terkait.</p>
+      </div>
+    </article>
+
+    <!-- ============ BAGIAN 15 ============ -->
+    <article class="section" id="bagian-15">
+      <div class="section-head">
+        <div class="section-num">15</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 15</p>
+          <h2 class="section-title">Advertising</h2>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">15.1</span>Apa Itu Advertising Cookies</h3>
+        <p>
+          Advertising cookie adalah cookie atau teknologi serupa yang digunakan
+          untuk menampilkan iklan, mengukur performa iklan, atau menyesuaikan
+          iklan dengan preferensi pengguna.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">15.2</span>Fungsi Advertising</h3>
+        <p>
+          Fungsi utama advertising meliputi penayangan iklan, pengukuran interaksi
+          dengan iklan, serta pembatasan frekuensi tampilan iklan.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">15.3</span>Pengukuran Iklan</h3>
+        <p>
+          Pengukuran iklan membantu memahami efektivitas kampanye dan dapat
+          melibatkan teknologi pihak ketiga.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">15.4</span>Pihak Ketiga</h3>
+        <p>
+          Advertising umumnya melibatkan penyedia pihak ketiga yang memiliki
+          kebijakan privasi sendiri. Pengguna dianjurkan membaca kebijakan
+          tersebut.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">15.5</span>Personalized Advertising</h3>
+        <p>
+          Personalized advertising adalah penayangan iklan yang disesuaikan
+          dengan preferensi atau perilaku pengguna. Penerapan personalized
+          advertising bergantung pada produk dan kebijakan yang berlaku.
+        </p>
+      </div>
+
+      <div class="callout callout-warn">
+        <p><strong>Catatan:</strong> AppHub.ID tidak menyatakan bahwa seluruh
+        produknya menampilkan iklan. Apabila iklan diterapkan pada produk
+        tertentu, penjelasan lebih lanjut akan disediakan.</p>
+      </div>
+    </article>
+
+    <!-- ============ BAGIAN 16 ============ -->
+    <article class="section" id="bagian-16">
+      <div class="section-head">
+        <div class="section-num">16</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 16</p>
+          <h2 class="section-title">Third-Party Technologies</h2>
+        </div>
+      </div>
+
+      <p>
+        Produk AppHub.ID dapat menggunakan teknologi pihak ketiga untuk mendukung
+        fungsi tertentu. Kategori teknologi pihak ketiga yang mungkin digunakan
+        mencakup, namun tidak terbatas pada:
+      </p>
+
+      <ul>
+        <li>Penyedia analytics;</li>
+        <li>Penyedia advertising;</li>
+        <li>Layanan autentikasi;</li>
+        <li>Penyedia pembayaran;</li>
+        <li>Penyedia layanan peta;</li>
+        <li>Penyedia layanan awan;</li>
+        <li>Penyedia API;</li>
+        <li>Penyedia layanan keamanan.</li>
+      </ul>
+
+      <p>
+        AppHub.ID tidak menyebutkan vendor tertentu dalam dokumen ini karena
+        pemilihan vendor belum ditetapkan secara final untuk seluruh produk.
+        Pihak ketiga dapat memiliki aturan dan kebijakan privasi mereka sendiri.
+      </p>
+    </article>
+
+    <!-- ============ BAGIAN 17 ============ -->
+    <article class="section" id="bagian-17">
+      <div class="section-head">
+        <div class="section-num">17</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 17</p>
+          <h2 class="section-title">Cara Pengguna Mengendalikan Cookie</h2>
+        </div>
+      </div>
+
+      <p>
+        Pengguna memiliki beberapa cara untuk mengendalikan cookie pada
+        perangkatnya:
+      </p>
+
+      <ul>
+        <li><strong>Pengaturan browser</strong> — sebagian besar browser menyediakan opsi untuk mengelola cookie, termasuk memblokir atau menghapusnya;</li>
+        <li><strong>Menghapus cookie</strong> — pengguna dapat menghapus cookie yang tersimpan melalui pengaturan browser;</li>
+        <li><strong>Memblokir cookie</strong> — pengguna dapat memblokir seluruh cookie atau cookie tertentu sesuai preferensi;</li>
+        <li><strong>Menolak third-party cookies</strong> — sebagian browser memungkinkan pengguna untuk menolak cookie pihak ketiga;</li>
+        <li><strong>Mode private/incognito</strong> — mode ini umumnya tidak menyimpan cookie setelah sesi berakhir;</li>
+        <li><strong>Pengaturan perangkat</strong> — sebagian perangkat menyediakan pengaturan tambahan terkait cookie dan privasi;</li>
+        <li><strong>Pengaturan situs</strong> — sebagian situs menyediakan pengaturan preferensi cookie yang dapat disesuaikan.</li>
+      </ul>
+
+      <p>
+        Perlu dipahami bahwa menonaktifkan cookie tertentu dapat memengaruhi
+        fungsi tertentu pada produk yang menggunakannya.
+      </p>
+    </article>
+
+    <!-- ============ BAGIAN 18 ============ -->
+    <article class="section" id="bagian-18">
+      <div class="section-head">
+        <div class="section-num">18</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 18</p>
+          <h2 class="section-title">Cookie Consent</h2>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">18.1</span>Konsep Persetujuan Cookie</h3>
+        <p>
+          Cookie consent adalah mekanisme yang memungkinkan pengguna memberikan
+          atau menolak persetujuan terhadap penggunaan cookie tertentu, terutama
+          cookie yang tidak bersifat wajib untuk fungsi dasar.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">18.2</span>Cookie yang Diperlukan</h3>
+        <p>
+          Cookie yang diperlukan untuk fungsi dasar umumnya tidak memerlukan
+          persetujuan tambahan, karena tanpa cookie tersebut layanan mungkin
+          tidak dapat berjalan.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">18.3</span>Cookie Opsional</h3>
+        <p>
+          Cookie opsional, seperti cookie analitik atau iklan, umumnya
+          memerlukan persetujuan pengguna tergantung pada hukum yang berlaku.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">18.4</span>Pilihan dan Perubahan Preferensi</h3>
+        <p>
+          Pengguna dapat mengubah preferensi cookie kapan saja melalui
+          pengaturan yang tersedia pada produk atau melalui pengaturan browser.
+        </p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title"><span class="clause-num">18.5</span>Penolakan dan Pencabutan Persetujuan</h3>
+        <p>
+          Pengguna dapat menolak atau mencabut persetujuan terhadap cookie
+          tertentu. Namun, pencabutan persetujuan tidak memengaruhi keabsahan
+          pemrosesan yang dilakukan sebelum pencabutan.
+        </p>
+      </div>
+
+      <div class="callout callout-warn">
+        <p><strong>Catatan:</strong> Dokumen ini tidak mengimplementasikan sistem
+        cookie consent pada dirinya sendiri. AppHub.ID tidak menyatakan bahwa
+        seluruh produknya sudah menggunakan consent banner.</p>
+      </div>
+    </article>
+
+    <!-- ============ BAGIAN 19 ============ -->
+    <article class="section" id="bagian-19">
+      <div class="section-head">
+        <div class="section-num">19</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 19</p>
+          <h2 class="section-title">Cookie yang Tidak Diperlukan</h2>
+        </div>
+      </div>
+
+      <p>
+        Cookie atau teknologi yang tidak diperlukan untuk fungsi inti layanan
+        dapat memerlukan pertimbangan tambahan terkait persetujuan atau pilihan
+        pengguna, tergantung pada hukum yang berlaku di wilayah pengguna.
+      </p>
+
+      <p>
+        AppHub.ID tidak mengklaim bahwa satu rezim hukum tertentu berlaku
+        universal untuk seluruh penggunanya. Ketentuan yang berlaku dapat
+        berbeda berdasarkan yurisdiksi masing-masing.
+      </p>
+    </article>
+
+    <!-- ============ BAGIAN 20 ============ -->
+    <article class="section" id="bagian-20">
+      <div class="section-head">
+        <div class="section-num">20</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 20</p>
+          <h2 class="section-title">Privasi dan Cookie</h2>
+        </div>
+      </div>
+
+      <p>
+        Cookie Policy dan Privacy Policy AppHub.ID memiliki fokus yang berbeda
+        namun saling melengkapi:
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data-table" aria-label="Perbedaan Cookie Policy dan Privacy Policy">
+          <thead>
+            <tr>
+              <th>Dokumen</th>
+              <th>Fokus Utama</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Cookie Policy</td>
+              <td>Teknologi cookie, teknologi serupa, penyimpanan browser, dan kontrol pengguna terhadap teknologi tersebut.</td>
+            </tr>
+            <tr>
+              <td>Privacy Policy</td>
+              <td>Informasi pribadi, kategori data, pemrosesan data, dan hak pengguna terkait privasi.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        Untuk memahami bagaimana AppHub.ID memproses informasi pribadi, pengguna
+        dianjurkan membaca Privacy Policy AppHub.ID yang merupakan dokumen
+        terpisah.
+      </p>
+    </article>
+
+    <!-- ============ BAGIAN 21 ============ -->
+    <article class="section" id="bagian-21">
+      <div class="section-head">
+        <div class="section-num">21</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 21</p>
+          <h2 class="section-title">Data Pribadi dan Cookie</h2>
+        </div>
+      </div>
+
+      <p>
+        Cookie tidak selalu berisi data pribadi. Sebagian besar cookie hanya
+        berisi pengenal teknis, preferensi singkat, atau informasi sesi yang
+        tidak secara langsung mengidentifikasi pengguna.
+      </p>
+
+      <p>
+        Namun, dalam kondisi tertentu, informasi yang terkait dengan cookie dapat
+        dikaitkan dengan pengguna atau perangkat, terutama apabila digabungkan
+        dengan informasi lain. AppHub.ID tidak menyatakan bahwa hal tersebut
+        selalu terjadi pada semua produknya.
+      </p>
+    </article>
+
+    <!-- ============ BAGIAN 22 ============ -->
+    <article class="section" id="bagian-22">
+      <div class="section-head">
+        <div class="section-num">22</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 22</p>
+          <h2 class="section-title">Retensi Cookie</h2>
+        </div>
+      </div>
+
+      <p>
+        Retensi cookie bergantung pada jenis cookie dan tujuan penggunaannya.
+        Secara umum:
+      </p>
+
+      <ul>
+        <li>Session cookie bertahan hanya selama sesi browser berlangsung;</li>
+        <li>Persistent cookie bertahan hingga masa berlaku yang ditetapkan berakhir atau dihapus secara manual;</li>
+        <li>Cookie dapat dihapus oleh pengguna kapan saja melalui pengaturan browser;</li>
+        <li>Perubahan konfigurasi produk dapat mengubah perilaku retensi cookie.</li>
+      </ul>
+
+      <p>
+        Durasi spesifik cookie pada produk AppHub.ID belum ditetapkan secara
+        final dan akan dijelaskan pada kebijakan yang berlaku saat produk
+        dirilis.
+      </p>
+    </article>
+
+    <!-- ============ BAGIAN 23 ============ -->
+    <article class="section" id="bagian-23">
+      <div class="section-head">
+        <div class="section-num">23</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 23</p>
+          <h2 class="section-title">Perubahan Cookie</h2>
+        </div>
+      </div>
+
+      <p>
+        Implementasi cookie pada produk AppHub.ID dapat berubah seiring waktu.
+        Perubahan tersebut dapat mencakup:
+      </p>
+
+      <ul>
+        <li>Perubahan implementasi teknologi;</li>
+        <li>Penambahan teknologi baru;</li>
+        <li>Penghapusan teknologi tertentu;</li>
+        <li>Pergantian vendor atau penyedia layanan;</li>
+        <li>Perubahan konfigurasi produk;</li>
+        <li>Perubahan fitur produk yang memengaruhi penggunaan cookie.</li>
+      </ul>
+
+      <p>
+        Apabila terjadi perubahan yang bersifat material, Cookie Policy ini akan
+        diperbarui untuk mencerminkan implementasi terbaru.
+      </p>
+    </article>
+
+    <!-- ============ BAGIAN 24 ============ -->
+    <article class="section" id="bagian-24">
+      <div class="section-head">
+        <div class="section-num">24</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 24</p>
+          <h2 class="section-title">Produk Pihak Ketiga</h2>
+        </div>
+      </div>
+
+      <p>
+        Aplikasi atau situs tertentu dapat menggunakan integrasi eksternal yang
+        memiliki mekanisme cookie atau teknologi serupa. Integrasi tersebut dapat
+        mencakup layanan analitik, iklan, autentikasi, atau layanan lain yang
+        disediakan pihak ketiga.
+      </p>
+
+      <p>
+        Pengguna dianjurkan membaca kebijakan privasi dan kebijakan cookie pihak
+        ketiga yang relevan dengan produk yang digunakan.
+      </p>
+    </article>
+
+    <!-- ============ BAGIAN 25 ============ -->
+    <article class="section" id="bagian-25">
+      <div class="section-head">
+        <div class="section-num">25</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 25</p>
+          <h2 class="section-title">Tautan Eksternal</h2>
+        </div>
+      </div>
+
+      <p>
+        Website atau produk AppHub.ID dapat menyediakan tautan yang mengarah ke
+        website pihak lain. AppHub.ID tidak secara otomatis mengendalikan
+        teknologi cookie yang digunakan oleh website pihak ketiga tersebut.
+      </p>
+
+      <p>
+        Pengguna dianjurkan memeriksa kebijakan cookie dan privasi website
+        pihak ketiga sebelum berinteraksi lebih lanjut.
+      </p>
+    </article>
+
+    <!-- ============ BAGIAN 26 ============ -->
+    <article class="section" id="bagian-26">
+      <div class="section-head">
+        <div class="section-num">26</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 26</p>
+          <h2 class="section-title">Teknologi yang Belum Ditentukan pada Tahap Pra-Rilis</h2>
+        </div>
+      </div>
+
+      <p>
+        Pada tahap pra-rilis, AppHub.ID belum menetapkan seluruh kategori teknologi
+        untuk setiap produk. Kategori yang belum ditentukan secara final mencakup,
+        namun tidak terbatas pada:
+      </p>
+
+      <ul>
+        <li>Layanan analytics yang akan digunakan;</li>
+        <li>Layanan advertising yang akan digunakan;</li>
+        <li>Mekanisme autentikasi;</li>
+        <li>Sistem tracking yang mungkin diterapkan;</li>
+        <li>Mekanisme consent management;</li>
+        <li>Integrasi pihak ketiga lainnya.</li>
+      </ul>
+
+      <p>
+        Karena itu, Cookie Policy ini akan diperbarui berdasarkan implementasi
+        final produk ketika memasuki tahap produksi.
+      </p>
+    </article>
+
+    <!-- ============ BAGIAN 27 ============ -->
+    <article class="section" id="bagian-27">
+      <div class="section-head">
+        <div class="section-num">27</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 27</p>
+          <h2 class="section-title">Tidak Ada Klaim Cookie yang Sudah Aktif</h2>
+        </div>
+      </div>
+
+      <div class="callout callout-warn" style="margin-bottom:12px;">
+        <p><strong>Pernyataan penting:</strong> Penyebutan jenis cookie atau
+        teknologi di dalam dokumen ini tidak boleh ditafsirkan sebagai konfirmasi
+        bahwa seluruh teknologi tersebut telah digunakan oleh seluruh produk
+        AppHub.ID.</p>
+      </div>
+
+      <p>
+        Dokumen ini disusun sebagai kerangka awal sebelum produk dirilis. Karena
+        itu, seluruh pernyataan mengenai cookie dan teknologi serupa bersifat
+        indikatif. Penjelasan yang mengikat akan disediakan pada versi kebijakan
+        yang berlaku untuk produk terkait.
+      </p>
+
+      <p>
+        Pengguna dianjurkan untuk tidak mengandalkan dokumen ini sebagai
+        pernyataan final mengenai praktik cookie AppHub.ID. Praktik aktual akan
+        dijelaskan pada versi yang berlaku saat produk digunakan.
+      </p>
+    </article>
+
+    <!-- ============ BAGIAN 28 ============ -->
+    <article class="section" id="bagian-28">
+      <div class="section-head">
+        <div class="section-num">28</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 28</p>
+          <h2 class="section-title">Pengguna Tanpa Cookie</h2>
+        </div>
+      </div>
+
+      <p>
+        Apabila pengguna menolak atau menghapus cookie, pengalaman penggunaan
+        produk dapat berbeda. Sebagian fitur mungkin tetap berjalan normal,
+        sementara fitur lain mungkin memerlukan mekanisme penyimpanan tertentu
+        agar dapat berfungsi.
+      </p>
+
+      <p>
+        AppHub.ID tidak menjanjikan bahwa seluruh fitur akan tetap bekerja tanpa
+        penggunaan cookie. Perilaku aktual bergantung pada arsitektur masing-masing
+        produk.
+      </p>
+    </article>
+
+    <!-- ============ BAGIAN 29 ============ -->
+    <article class="section" id="bagian-29">
+      <div class="section-head">
+        <div class="section-num">29</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 29</p>
+          <h2 class="section-title">Cookie pada Website Statis</h2>
+        </div>
+      </div>
+
+      <p>
+        Website dokumen AppHub.ID, termasuk halaman Cookie Policy ini, dapat
+        dirancang sebagai dokumen statis tanpa penggunaan cookie. Pendekatan ini
+        memungkinkan pengguna membaca dokumen tanpa perlu mengkhawatirkan
+        penyimpanan data pada perangkat.
+      </p>
+
+      <p>
+        Halaman Cookie Policy ini sendiri tidak memasang cookie, tidak
+        menggunakan analytics, dan tidak menyimpan preferensi pengguna pada
+        perangkat.
+      </p>
+    </article>
+
+    <!-- ============ BAGIAN 30 ============ -->
+    <article class="section" id="bagian-30">
+      <div class="section-head">
+        <div class="section-num">30</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 30</p>
+          <h2 class="section-title">Anak dan Pengguna di Bawah Umur</h2>
+        </div>
+      </div>
+
+      <p>
+        Apabila produk AppHub.ID dapat digunakan oleh anak atau pengguna di bawah
+        umur, penggunaan teknologi cookie akan disesuaikan dengan kebutuhan produk
+        dan ketentuan hukum yang berlaku.
+      </p>
+
+      <p>
+        Orang tua atau wali dianjurkan untuk mendampingi anak dalam memahami
+        pengaturan privasi dan cookie pada perangkat yang digunakan. Persyaratan
+        usia dapat berbeda berdasarkan hukum dan kebijakan platform yang berlaku.
+      </p>
+    </article>
+
+    <!-- ============ BAGIAN 31 ============ -->
+    <article class="section" id="bagian-31">
+      <div class="section-head">
+        <div class="section-num">31</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 31</p>
+          <h2 class="section-title">Hak Pengguna</h2>
+        </div>
+      </div>
+
+      <p>
+        Pengguna memiliki hak-hak berikut terkait cookie dan teknologi serupa,
+        sejauh diatur oleh hukum yang berlaku:
+      </p>
+
+      <ul>
+        <li>Hak untuk mengetahui teknologi cookie yang digunakan;</li>
+        <li>Hak untuk mengontrol penggunaan cookie pada perangkat;</li>
+        <li>Hak untuk menghapus cookie yang tersimpan;</li>
+        <li>Hak untuk menolak teknologi tertentu;</li>
+        <li>Hak untuk mengubah preferensi cookie.</li>
+      </ul>
+
+      <div class="callout">
+        <p><strong>Catatan:</strong> Hak tersebut dapat berbeda sesuai hukum
+        yang berlaku dan karakteristik produk yang digunakan.</p>
+      </div>
+    </article>
+
+    <!-- ============ BAGIAN 32 ============ -->
+    <article class="section" id="bagian-32">
+      <div class="section-head">
+        <div class="section-num">32</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 32</p>
+          <h2 class="section-title">Yurisdiksi</h2>
+        </div>
+      </div>
+
+      <p>
+        Karena yurisdiksi operasional AppHub.ID belum ditetapkan secara final,
+        dokumen ini menggunakan placeholder berikut:
+      </p>
+
+      <div class="callout">
+        <p><strong>[JURISDIKSI YANG BERLAKU]</strong></p>
+      </div>
+
+      <p>
+        AppHub.ID tidak menyatakan kepatuhan terhadap hukum tertentu tanpa
+        dasar yang memadai. Dokumen ini akan diperbarui ketika yurisdiksi
+        operasional ditetapkan secara resmi.
+      </p>
+    </article>
+
+    <!-- ============ BAGIAN 33 ============ -->
+    <article class="section" id="bagian-33">
+      <div class="section-head">
+        <div class="section-num">33</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 33</p>
+          <h2 class="section-title">Riwayat Versi</h2>
+        </div>
+      </div>
+
+      <p>
+        Bagian ini mencatat riwayat versi Cookie Policy AppHub.ID. Ketika
+        dokumen ini diperbarui, entri baru dapat ditambahkan di bawah ini.
+      </p>
+
+      <div class="version-card">
+        <p class="version-card-title">Versi 0.1 — Pre-Release</p>
+        <div class="version-grid">
+          <div class="version-item">
+            <div class="version-label">Version</div>
+            <div class="version-value">0.1</div>
+          </div>
+          <div class="version-item">
+            <div class="version-label">Status</div>
+            <div class="version-value">Pre-Release / Temporary</div>
+          </div>
+          <div class="version-item">
+            <div class="version-label">Effective Date</div>
+            <div class="version-value placeholder">[DD Month YYYY]</div>
+          </div>
+          <div class="version-item">
+            <div class="version-label">Last Updated</div>
+            <div class="version-value placeholder">[DD Month YYYY]</div>
+          </div>
+        </div>
+      </div>
+
+      <p>
+        Ruang untuk entri versi berikutnya dapat ditambahkan ketika terjadi
+        pembaruan terhadap Cookie Policy ini.
+      </p>
+    </article>
+
+    <!-- ============ BAGIAN 34 ============ -->
+    <article class="section" id="bagian-34">
+      <div class="section-head">
+        <div class="section-num">34</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 34</p>
+          <h2 class="section-title">Perubahan Cookie Policy</h2>
+        </div>
+      </div>
+
+      <p>
+        Cookie Policy ini dapat diperbarui dari waktu ke waktu. Beberapa kondisi
+        yang dapat memerlukan revisi mencakup:
+      </p>
+
+      <ul>
+        <li>Perubahan teknologi cookie yang digunakan;</li>
+        <li>Perubahan fitur produk yang memengaruhi penggunaan cookie;</li>
+        <li>Perubahan vendor atau penyedia layanan pihak ketiga;</li>
+        <li>Perubahan ketentuan hukum yang relevan.</li>
+      </ul>
+
+      <p>
+        Setiap pembaruan akan mencantumkan tanggal <em>Last Updated</em> yang
+        baru. Pengguna dianjurkan untuk selalu merujuk kepada versi terbaru
+        dokumen ini.
+      </p>
+    </article>
+
+    <!-- ============ BAGIAN 35 ============ -->
+    <article class="section" id="bagian-35">
+      <div class="section-head">
+        <div class="section-num">35</div>
+        <div class="section-title-wrap">
+          <p class="section-kicker">Bagian 35</p>
+          <h2 class="section-title">Kontak</h2>
+        </div>
+      </div>
+
+      <p>
+        Pertanyaan terkait Cookie Policy ini dapat disampaikan melalui kontak
+        resmi berikut:
+      </p>
+
+      <div class="meta-card" style="margin:14px 0 0;">
+        <div class="meta-grid">
+          <div class="meta-item full">
+            <span class="meta-label">Developer</span>
+            <span class="meta-value">AppHub.ID</span>
+          </div>
+          <div class="meta-item full">
+            <span class="meta-label">Email Resmi</span>
+            <span class="meta-value placeholder">[EMAIL RESMI APPHUB.ID]</span>
+          </div>
+        </div>
+      </div>
+
+      <p style="margin-top:14px;">
+        Informasi kontak di atas akan diperbarui secara resmi oleh AppHub.ID
+        apabila telah ditetapkan. Mohon tidak menggunakan alamat atau kanal lain
+        yang tidak secara resmi diumumkan oleh AppHub.ID.
+      </p>
+    </article>
+
+    <hr class="divider">
+
+    <p style="font-size:13px;color:#6b7280;line-height:1.7;text-align:center;margin:0;">
+      Dokumen ini merupakan kerangka kebijakan cookie awal AppHub.ID yang akan
+      diperbarui ketika produk terkait telah siap dirilis. Pengguna dianjurkan
+      untuk selalu merujuk kepada versi terbaru yang dipublikasikan secara resmi.
+    </p>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-brand">AppHub.ID</div>
+    <div class="footer-sub">Cookie Policy — Kebijakan Cookie</div>
+    <div class="footer-status">Status: Temporary / Pre-Release</div>
+    <hr class="footer-line">
+    <div class="footer-meta">
+      <strong>© [TAHUN] AppHub.ID</strong><br>
+      Last Updated: [DD Month YYYY]
+    </div>
+    <div class="footer-copy">
+      Seluruh hak dilindungi sesuai ketentuan yang berlaku.
+    </div>
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  /* =========================================================
+     DEVICE DETECTION
+     Hanya mengizinkan smartphone Android dan iPhone (serta iPod).
+     Tablet Android, iPad (termasuk iPadOS modern), desktop,
+     laptop, Chromebook, dan tablet lain akan ditolak.
+     ========================================================= */
+
+  function detectDevice() {
+    var ua = '';
+    var platform = '';
+    var maxTouch = 0;
+
+    try { ua = String(navigator.userAgent || ''); } catch (e) { ua = ''; }
+    try { platform = String(navigator.platform || ''); } catch (e) { platform = ''; }
+    try { maxTouch = Number(navigator.maxTouchPoints || 0); } catch (e) { maxTouch = 0; }
+
+    if (!ua) {
+      // Fallback aman: tolak jika user-agent tidak dapat dibaca.
+      return false;
+    }
+
+    var uaLower = ua.toLowerCase();
+
+    // iPad modern (iPadOS 13+) melaporkan sebagai MacIntel dengan maxTouchPoints > 1
+    if (platform === 'MacIntel' && maxTouch > 1) {
+      return false;
+    }
+
+    // iPad klasik
+    if (/ipad/i.test(uaLower)) {
+      return false;
+    }
+
+    // iPod dianggap perangkat mobile Apple
+    if (/ipod/i.test(uaLower)) {
+      return true;
+    }
+
+    // iPhone
+    if (/iphone/i.test(uaLower)) {
+      return true;
+    }
+
+    // Android: hanya yang mengandung kata "Mobile" dianggap smartphone
+    if (/android/i.test(uaLower)) {
+      if (/mobile/i.test(uaLower)) {
+        return true;
+      }
+      return false;
+    }
+
+    // Tablet lain
+    if (/tablet/i.test(uaLower)) {
+      return false;
+    }
+    if (/kindle/i.test(uaLower) || /silk/i.test(uaLower)) {
+      return false;
+    }
+    if (/playbook/i.test(uaLower)) {
+      return false;
+    }
+
+    // Desktop, laptop, Chromebook, dan lainnya: tidak diizinkan
+    return false;
+  }
+
+  function showScreen(supported) {
+    var unsupported = document.getElementById('unsupported-screen');
+    var main = document.getElementById('main-content');
+    if (!unsupported || !main) {
+      return;
+    }
+    if (supported) {
+      unsupported.classList.remove('active');
+      main.classList.add('active');
+    } else {
+      main.classList.remove('active');
+      unsupported.classList.add('active');
+    }
+  }
+
+  /* =========================================================
+     TOC TOGGLE
+     ========================================================= */
+  function initToc() {
+    var toc = document.getElementById('toc');
+    var toggle = document.getElementById('tocToggle');
+    if (!toc || !toggle) {
+      return;
+    }
+
+    toggle.addEventListener('click', function () {
+      var isOpen = toc.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+
+    var links = toc.querySelectorAll('.toc-list a');
+    var i;
+    for (i = 0; i < links.length; i++) {
+      links[i].addEventListener('click', function () {
+        toc.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    }
+  }
+
+  /* =========================================================
+     PERLINDUNGAN DASAR TERHADAP PENYALINAN TEKS
+     Tidak memblokir scrolling, zoom, tombol Back, atau
+     aksesibilitas dasar.
+     ========================================================= */
+  function initCopyProtection() {
+    // 1. Context menu
+    document.addEventListener('contextmenu', function (e) {
+      var t = e.target;
+      if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA')) {
+        return;
+      }
+      e.preventDefault();
+      return false;
+    }, false);
+
+    // 2. Drag start
+    document.addEventListener('dragstart', function (e) {
+      e.preventDefault();
+      return false;
+    }, false);
+
+    // 3. Select start
+    document.addEventListener('selectstart', function (e) {
+      var t = e.target;
+      if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA')) {
+        return;
+      }
+      e.preventDefault();
+      return false;
+    }, false);
+
+    // 4. Shortcut keyboard
+    document.addEventListener('keydown', function (e) {
+      var key = e.key ? String(e.key).toLowerCase() : '';
+      var ctrl = e.ctrlKey || e.metaKey;
+
+      if (!ctrl) {
+        return;
+      }
+
+      if (key === 'c' || key === 'x' || key === 'a' || key === 's' || key === 'u' || key === 'p') {
+        var t = e.target;
+        if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA')) {
+          return;
+        }
+        e.preventDefault();
+        return false;
+      }
+
+      if (e.shiftKey && (key === 'c' || key === 'i' || key === 'j')) {
+        e.preventDefault();
+        return false;
+      }
+    }, false);
+
+    // 5. Copy / cut events
+    document.addEventListener('copy', function (e) {
+      var t = e.target;
+      if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA')) {
+        return;
+      }
+      if (e.clipboardData && typeof e.clipboardData.setData === 'function') {
+        e.clipboardData.setData('text/plain', '');
+      }
+      e.preventDefault();
+      return false;
+    }, false);
+
+    document.addEventListener('cut', function (e) {
+      var t = e.target;
+      if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA')) {
+        return;
+      }
+      e.preventDefault();
+      return false;
+    }, false);
+
+    // 6. Drop teks dari luar
+    document.addEventListener('drop', function (e) {
+      e.preventDefault();
+      return false;
+    }, false);
+
+    document.addEventListener('dragover', function (e) {
+      e.preventDefault();
+      return false;
+    }, false);
+  }
+
+  /* =========================================================
+     INISIALISASI
+     ========================================================= */
+  function init() {
+    var supported = false;
+    try {
+      supported = detectDevice();
+    } catch (e) {
+      supported = false;
+    }
+
+    showScreen(supported);
+
+    if (supported) {
+      try { initToc(); } catch (e) { /* silent */ }
+      try { initCopyProtection(); } catch (e) { /* silent */ }
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+
+})();
+</script>
+
+</body>
+</html>
